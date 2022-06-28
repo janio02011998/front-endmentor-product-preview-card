@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+
 }
 
 
@@ -70,6 +72,11 @@ body {
 
   cursor: pointer;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
 }
 
 .card-btn:hover {
@@ -89,7 +96,7 @@ body {
 .name-product {
   line-height: 28px;
   font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 
 }
 
@@ -98,9 +105,7 @@ body {
   font-size: 14px;
   color: hsl(228, 12%, 48%);
   font-family: 'Montserrat', sans-serif;
-
 }
-
 
 .card-cost {
   font-family: 'Fraunces', serif;
@@ -109,7 +114,7 @@ body {
 
 .card-cost-subtitle {
   font-size: 14px;
-  padding-right: 20px;
+  padding-right: 60px;
   color: hsl(228, 12%, 48%);
   font-weight: 500;
   text-decoration: line-through;
